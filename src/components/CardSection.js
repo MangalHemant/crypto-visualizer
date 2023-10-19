@@ -60,29 +60,6 @@ export class CardSection extends Component {
                 className="card-text fw-bold fs-5"
                 style={{ color: "#fcdf03" }}
               >
-                ${this.props.ath}
-              </p>
-            </div>
-          </div>
-          <div
-            className="card text-white text-center  m-3"
-            style={{
-              width: "11rem",
-              backgroundColor: "rgb(43, 43, 43)",
-              marginTop: "0px !important",
-            }}
-          >
-            <div className="card-body">
-              <h6
-                className="card-title"
-                style={{ fontFamily: "NHaasGroteskDSPro-65Md" }}
-              >
-                All Time High
-              </h6>
-              <p
-                className="card-text fw-bold fs-5"
-                style={{ color: "#fcdf03" }}
-              >
                 ${this.props.atl}
               </p>
             </div>
