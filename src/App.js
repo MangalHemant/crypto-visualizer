@@ -11,10 +11,13 @@ export default class App extends Component {
       Data: {},
     };
   }
+
+  
   fetchData = async () => {
-    let data = await fetch(
-      "https://api.coingecko.com/api/v3/coins/" + this.state.Id
-    );
+    const apiUrl = `https://api.coingecko.com/api/v3/coins/${this.state.Id}?vs_currency=usd&x_cg_demo_api_key=CG-1juN5kQiVctMAp45gg8CKpT8`;
+    let data = await fetch(apiUrl);
+      
+
     let JsonData = await data.json();
     this.setState({ Id: this.state.Id, Data: JsonData });
   };
