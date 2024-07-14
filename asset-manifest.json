@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/crypto-visualizer/static/css/main.e6c13ad2.css",
+    "main.js": "/crypto-visualizer/static/js/main.589d238c.js",
+    "index.html": "/crypto-visualizer/index.html",
+    "main.e6c13ad2.css.map": "/crypto-visualizer/static/css/main.e6c13ad2.css.map",
+    "main.589d238c.js.map": "/crypto-visualizer/static/js/main.589d238c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.589d238c.js"
+  ]
+}
